@@ -1,0 +1,53 @@
+.adm {
+    width: 1200px;
+    margin: 0 auto; 
+    background-color: var(--cor0);
+    border-radius: 80px 0 80px 0;
+    margin-bottom: 80px;
+    height: 50vh;
+}
+
+.btn-adm-top {
+    margin-top: 13vh;
+}
+
+.btns-adm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn-adm {
+    background-color: var(--cor3);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-top: 10px;
+    color: var(--cor4);
+    width: 300px;
+    cursor: pointer;
+}
+
+.btn-adm-top {
+    margin-top: 15vh;
+}
+
+@media screen and (max-width: 1200px) {
+    .adm {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .adm {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .adm {
+        width: 100%;
+    }
+}

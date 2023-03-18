@@ -1,0 +1,67 @@
+.title-ong {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-ong {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.ong-items {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.ong-control {
+    background-color: var(--cor1);
+    border-bottom: 2px solid var(--cor3);
+    border-radius: 0;
+    width: 380px;
+    float: right;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.ong-label {
+    float: right;
+    font-size: 0.8em;
+}
+
+.btn-ong {
+    width: 300px;
+    background-color: var(--cor3);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-top: 10px;
+    color: var(--cor4);
+    cursor: pointer;
+}
+
+.btns-adm {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .form-ong {
+        width: 350px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .form-ong {
+        width: 250px;
+    }
+}
+
+
+
+
+
